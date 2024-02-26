@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     /*
-    // Q-1   Two numbers are given, print the bigger number,it is giben that both numbers can't be the same.
+    // Q-1   Two numbers are given, print the bigger number,it is given that both numbers can't be the same.
 
     int a,b;
     cout<<"Enter value of a: ";
@@ -19,7 +19,7 @@ int main()
     */
 
     /*
-    // Q-2  Age of a person is giben, print Adult if his/her age is greater than  18, otherwise print Teenager.
+    // Q-2  Age of a person is given, print Adult if his/her age is greater than  18, otherwise print Teenager.
 
     int age;
     cout<<"Enter your age: ";
@@ -32,7 +32,7 @@ int main()
     */
 
     /*
-    // Q-3 Take a number in input (ex n) and print the corresponding month to it. Ex: for n=1, print january, n=2, print febuary like this you need to give output. It is given that n will be greater than 0 and less than 13.
+    // Q-3 Take a number in input (ex n) and print the corresponding month to it. Ex: for n=1, print january, n=2, print february like this you need to give output. It is given that n will be greater than 0 and less than 13.
 
     int month;
     cout<<"Enter no. ";
@@ -41,7 +41,7 @@ int main()
         cout<<"January";
     }
     else if(month == 2){
-        cout<<"Febuary";
+        cout<<"February";
     }
     else if(month == 3){
         cout<<"March";
@@ -113,7 +113,7 @@ int main()
     }
     */
 
-    // Q-3 Print all numbers from 1 to n, which is dibisible by 4. Take n as an input from the user.
+    // Q-3 Print all numbers from 1 to n, which is divisible by 4. Take n as an input from the user.
     /*
     int n;
     cout<<"Give me a number: ";
