@@ -24,9 +24,9 @@ int main()
     cout << endl;
     for (int j = 1; j <= 5; j++)
     {
+        char ch = 'a' + j - 1;
         for (int i = 1; i <= 5; i++)
         {
-            char ch = 'a' + j - 1;
             cout << ch << " ";
         }
         cout << endl;

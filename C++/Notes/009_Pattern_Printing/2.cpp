@@ -1,21 +1,30 @@
 /*
-1
-1 2
-1 2 3
-1 2 3 4
-1 2 3 4 5
-1 2 3 4 5 6
+
+        *
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * *
+
 */
 
 #include <iostream>
 using namespace std;
 int main()
 {
-    for (int row = 1; row <= 6; row = row + 1)
+    int n;
+    cout << "Enter n: ";
+    cin >> n;
+
+    for (int row = 1; row <= n; row++)
     {
-        for (int col = 1; col <= row; col = col + 1)
+        for (int space = 1; space <= n - row; space++)
         {
-            cout << col << " ";
+            cout << "  ";
+        }
+        for (int col = 1; col <= 2 * row - 1; col++)
+        {
+            cout << "* ";
         }
         cout << endl;
     }
