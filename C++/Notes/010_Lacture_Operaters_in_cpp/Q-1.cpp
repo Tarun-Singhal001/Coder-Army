@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    // Temperature Range: write a program that checks if a given temperature is suitable for swimming. If the temperature is berween 70 and 90(Excluded) degrees Fahrenheit print yes, else No.
+    // Temperature Range: write a program that checks if a given temperature is suitable for swimming. If the temperature is between 70 and 90(Excluded) degrees Fahrenheit print yes, else No.
 
     int temp;
     cout << "Enter the Temperature of water(in f): ";

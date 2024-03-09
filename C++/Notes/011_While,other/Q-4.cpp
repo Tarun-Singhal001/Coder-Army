@@ -1,32 +1,49 @@
-// Find the factorial of a number n using a while loop and do while loop.
+// Given a number n, print the corresponding month of it. for n=1, print jan, n=2, print Feb..., if the user puts any invalid number, don't do anything. (Use switch here)
 #include <iostream>
 using namespace std;
 int main()
-/*
 {
     int n;
-    int i = 1, fact = 1;
     cout << "Enter a number: ";
     cin >> n;
 
-    while (i <= n)
+    switch (n)
     {
-        fact = fact * i;
-        i++;
+    case 1:
+        cout << "january";
+        break;
+    case 2:
+        cout << "February";
+        break;
+    case 3:
+        cout << "March";
+        break;
+    case 4:
+        cout << "April";
+        break;
+    case 5:
+        cout << "May";
+        break;
+    case 6:
+        cout << "June";
+        break;
+    case 7:
+        cout << "July";
+        break;
+    case 8:
+        cout << "August";
+        break;
+    case 9:
+        cout << "Septerber";
+        break;
+    case 10:
+        cout << "October";
+        break;
+    case 11:
+        cout << "November";
+        break;
+    case 12:
+        cout << "December";
+        break;
     }
-    cout << n << " Factorial = " << fact;
-}
-
-*/
-
-{
-    int i =1,fact=1;
-    int n;
-    cout<<"Enter n: ";
-    cin>>n;
-    do{
-        fact= fact*i;
-        i++;
-    }while(i<=n);
-    cout<<n<<" factorial = "<<fact;
 }

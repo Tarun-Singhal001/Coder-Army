@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    // Age check: Implement a program that checks if a persom is a teemager. A teenager is someone whose age is berween 13 and 19(inclusive).
+    // Age check: Implement a program that checks if a person is a teenager. A teenager is someone whose age is between 13 and 19(inclusive).
 
     int Age;
     cout << "Enter Your age: ";

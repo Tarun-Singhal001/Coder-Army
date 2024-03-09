@@ -1,33 +1,20 @@
-//  Take a number n from the user and print all the even numbers between 1 and n (inclusive). Do this using while and do while loop separately.
+// Given a number n, print all the numbers from 1 to n(inclusive) which are not divisible by 3 and 5. (use continue here)
 
 #include <iostream>
 using namespace std;
 int main()
 {
-    // Using while loop
-    int n, i = 1;
+    int n;
     cout << "Enter a number n: ";
     cin >> n;
 
-    while (i <= n)
+    for (int i = 1; i <= n; i++)
     {
-        if (i % 2 == 0)
+        if (i % 3 == 0 || i % 5 == 0)
         {
-            cout << i << " ";
+            continue;
+            i++;
         }
-        i++;
+        cout << i << " ";
     }
-
-    cout<<"\n";
-    // Using do while Loop.
-
-    int a = 1;
-    do
-    {
-        if (a % 2 == 0)
-        {
-            cout << a << " ";
-        }
-        a++;
-    } while (a <= n);
 }

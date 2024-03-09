@@ -1,20 +1,25 @@
-// Given a number n, print all the numbers from 1 to n(inclusive) whilch are not divisible by 3 and 5. (use continue here)
+// print all the capital and small letters using a while loop. It means A-Z,then a-z.
 
 #include <iostream>
 using namespace std;
 int main()
 {
-    int n;
-    cout << "Enter a number n: ";
-    cin >> n;
 
-    for (int i = 1; i <= n; i++)
+    // First Print A-Z (capital letters)
+    char a = 'A';
+    while (a <= 'Z')
     {
-        if (i % 3 == 0 || i % 5 == 0)
-        {
-            continue;
-            i++;
-        }
-        cout << i << " ";
+        cout << a << " ";
+        a++;
+    }
+
+    cout<<endl;
+
+    // Print a-z (small leters)
+    char ch = 'a';
+    while (ch <= 'z')
+    {
+        cout << ch << " ";
+        ch++;
     }
 }
